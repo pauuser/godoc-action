@@ -1,4 +1,4 @@
-FROM golang:alpine
+FROM golang:alpine 
 
 ENV GOPATH /
 RUN go get golang.org/x/tools/cmd/godoc
