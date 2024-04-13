@@ -7,4 +7,4 @@ COPY ./main.bash /bin/main.bash
 RUN ls
 RUN pwd
 
-CMD ["/bin/main.bash"]
+CMD bash /bin/main.bash
